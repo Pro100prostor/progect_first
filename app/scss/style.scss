@@ -1,0 +1,33 @@
+html{
+    box-sizing: border-box;
+}
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: lawngreen;
+}
+
+.box{
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+.box__reg{
+    margin: 15px;
+    padding: 15px;
+}
+.region{
+    background-color: #fff;
+    position: absolute;
+}
+.region__media{
+    position: relative;
+    color: lavender;
+    border-radius: 50%;
+}
+.region__media-logo{
+    font-size: 10px;
+}
